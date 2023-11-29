@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Css for everypage */
+
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end  */
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    
+}
+
+.nav_bar{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+
+.main-content{
+    float: left;
+    width: 70%;
+    height: 150px;
+    background-color: brown;
+}
+
+.slide-bar{
+    float: right;
+    width: 30%;
+    height: 600px;
+    background-color: cornflowerblue;
+}
+
+.content{
+    width: 70%;
+    height: 600px;
+    background-color:blueviolet;
+}
+
+.footer{
+    color : white;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.content .content1, .content2, .content3{
+    width: 33.33%;
+    float: left;
+    height: 450px;
+}

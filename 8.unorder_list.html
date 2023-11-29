@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Unorder list]</title>
+    <style>
+        /* ul{
+            list-style-type: circle;
+        } */
+
+        ul:nth-child(1){ /* nth-child start from index 1*/
+            list-style-type: circle;
+        }
+
+        ul:nth-child(2){ /* ul child 2*/
+            list-style-type: square;
+        }
+
+        ul:nth-child(3){ /* ul child 3*/
+            list-style-type: none;
+        }
+
+        ul:nth-child(4){ /* ul child 4*/
+            list-style-type: disc; /* = defult ul li*/
+        }
+    </style>
+</head>
+<body>
+    <!-- cirle unorderlist -->
+    <ul> <!-- ul child 1-->
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+
+    <!-- square unorderlist -->
+    <ul><!-- ul child 2 -->
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+
+    <!-- square unorderlist -->
+    <ul><!-- ul child 3 -->
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+
+    <!-- square unorderlist -->
+    <ul><!-- ul child 4 -->
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+
+    <!-- defult unorderlist -->
+    <ul><!-- ul child 5 -->
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+</body>
+</html>
